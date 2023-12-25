@@ -8,29 +8,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
   }
   &_logo {
     font-size: 30px;
     color: white;
-    letter-spacing: 1.5px;
+    letter-spacing: 2.5px;
+    display: flex;
     &_second {
       color: red;
     }
   }
 }
 
-.sidebar_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    .sidebar_list{
-   
-        &_menu{
-            color: white;
-            height: 30px;
-            width: 100%;
-            margin-top:20px ;
-        }
+.sidebar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .sidebar_list {
+    &_menu {
+      color: white;
+      height: 30px;
+      width: 100%;
+     margin-top: 15px;
+      font-size: 18px;
+      letter-spacing: 1.25px;
     }
+    &_icon{
+        margin-right: 10px;
+    }
+  }
 }
