@@ -4,9 +4,8 @@ import AddTask from "./components/AddTask";
 const App: React.FC = () => {
   return (
     <>
-     <AddTask/>
+      <AddTask />
       <SideBar />
-     
     </>
   );
 };

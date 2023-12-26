@@ -1,7 +1,25 @@
-.addTask{
-    background-color: #d3d3d3;
-    width: 100vw;
-    height: 100vh;
-display: block;
-    
+.addTask {
+  background-color: #d3d3d3;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  &_first-container{
+    margin-top:60px ;
+  }
+  &_heading{
+    padding-bottom:40px;
+    font-size: 30px;
+    color: #0e2a47;
+  }
+  &_button{
+    width: 200px;
+    height: 80px;
+    background-color:  #0e2a47;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+  }
 }
