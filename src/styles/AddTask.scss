@@ -23,3 +23,20 @@
     cursor: pointer;
   }
 }
+.table{
+    border: 1px solid red;
+width: 900px;
+height: auto;
+    margin-top: 100px;
+    &_heading-row{
+        padding: 10px;
+    }
+}
+.flex-row{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+}
+.table-container{
+width: 100vw;
+}
