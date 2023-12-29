@@ -12,6 +12,7 @@ import {
   faCheck,
   faTrashCan,
 } from "@fortawesome/free-solid-svg-icons";
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
 
 const SideBar: React.FC = () => {
   return (
@@ -80,6 +81,9 @@ const SideBar: React.FC = () => {
               Kosz
             </li>
           </ul>
+      <div className="github-icon">
+        <FontAwesomeIcon icon={faGithub} color="white" size="2x"/>
+      </div>
         </div>
       </aside>
     </>
